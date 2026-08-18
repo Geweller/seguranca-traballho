@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site informativo sobre segurança no trabalho e prevenção de acidentes">
+    <title>Segurança no Trabalho - Proteção e Prevenção</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>🛡️ Segurança no Trabalho</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#guias">Guias</a></li>
+                    <li><a href="#epi">EPIs</a></li>
+                    <li><a href="#prevencao">Prevenção</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Sua Segurança é Nossa Prioridade</h2>
+            <p>Conheça as melhores práticas de segurança ocupacional e previna acidentes no trabalho</p>
+            <button class="cta-button" onclick="document.getElementById('guias').scrollIntoView()">Saiba Mais</button>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Guias Section -->
+            <section id="guias" class="section">
+                <h2>📚 Guias de Segurança</h2>
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3>Normas de Segurança</h3>
+                        <p>Conheça as principais normas regulamentadoras (NR) que regem a segurança no trabalho</p>
+                        <a href="pages/normas.html" class="card-link">Leia Mais →</a>
+                    </div>
+                    <div class="card">
+                        <h3>Procedimentos de Emergência</h3>
+                        <p>Saiba como agir em situações de emergência e risco no ambiente de trabalho</p>
+                        <a href="pages/emergencia.html" class="card-link">Leia Mais →</a>
+                    </div>
+                    <div class="card">
+                        <h3>Primeiros Socorros</h3>
+                        <p>Aprenda técnicas básicas de primeiros socorros para emergências</p>
+                        <a href="pages/primeiros-socorros.html" class="card-link">Leia Mais →</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EPIs Section -->
+            <section id="epi" class="section">
+                <h2>🦺 Equipamentos de Proteção Individual (EPIs)</h2>
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3>Proteção de Cabeça</h3>
+                        <p>Capacetes, óculos de proteção e protetor auricular</p>
+                        <a href="pages/epi-cabeca.html" class="card-link">Ver Detalhes →</a>
+                    </div>
+                    <div class="card">
+                        <h3>Proteção de Corpo</h3>
+                        <p>Aventais, coletes e roupas de proteção especializadas</p>
+                        <a href="pages/epi-corpo.html" class="card-link">Ver Detalhes →</a>
+                    </div>
+                    <div class="card">
+                        <h3>Proteção de Membros</h3>
+                        <p>Luvas, braçadeiras e perneiras de proteção</p>
+                        <a href="pages/epi-membros.html" class="card-link">Ver Detalhes →</a>
+                    </div>
+                    <div class="card">
+                        <h3>Proteção de Pés</h3>
+                        <p>Calçados de segurança e protetores de pé</p>
+                        <a href="pages/epi-pes.html" class="card-link">Ver Detalhes →</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Prevenção Section -->
+            <section id="prevencao" class="section">
+                <h2>⚠️ Prevenção de Acidentes</h2>
+                <div class="prevention-content">
+                    <div class="prevention-item">
+                        <h3>✓ Identificação de Riscos</h3>
+                        <p>Aprenda a identificar potenciais riscos no seu ambiente de trabalho</p>
+                    </div>
+                    <div class="prevention-item">
+                        <h3>✓ Boas Práticas Diárias</h3>
+                        <p>Hábitos simples que podem salvar vidas todos os dias</p>
+                    </div>
+                    <div class="prevention-item">
+                        <h3>✓ Comunicação de Riscos</h3>
+                        <p>Reporte riscos e participe ativamente da segurança coletiva</p>
+                    </div>
+                    <div class="prevention-item">
+                        <h3>✓ Treinamentos Regulares</h3>
+                        <p>A importância de participar de treinamentos de segurança</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contato" class="section">
+                <h2>📞 Entre em Contato</h2>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Seu Nome" required>
+                        <input type="email" placeholder="Seu Email" required>
+                        <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Segurança no Trabalho. Todos os direitos reservados.</p>
+            <p>Desenvolvido com ❤️ para sua segurança</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
